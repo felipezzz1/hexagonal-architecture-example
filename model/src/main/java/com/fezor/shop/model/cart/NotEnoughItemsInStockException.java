@@ -1,7 +1,15 @@
 package com.fezor.shop.model.cart;
 
-public class NotEnoughItemsInStockException extends RuntimeException {
-    public NotEnoughItemsInStockException(String message) {
+public class NotEnoughItemsInStockException extends Exception {
+
+    private final int itemsInStock;
+
+    public NotEnoughItemsInStockException(String message, int itemsInStock) {
         super(message);
+        this.itemsInStock = itemsInStock;
+    }
+
+    public int itemsInStock() {
+        return this.itemsInStock;
     }
 }
