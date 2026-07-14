@@ -28,7 +28,6 @@ public class CartLineItem {
                         + "than the requested total (%d)")
                             .formatted(product.id(), product.itemsInStock(), newQuantity),
                     product.itemsInStock());
-            )
         }
 
         this.quantity = newQuantity;
