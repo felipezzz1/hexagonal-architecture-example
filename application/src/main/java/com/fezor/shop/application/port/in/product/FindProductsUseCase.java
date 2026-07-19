@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface FindProductsUseCase {
 
-    List<Product>
+    List<Product> findByNameOrDescription(String query);
 }
