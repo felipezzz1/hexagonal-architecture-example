@@ -1,4 +1,4 @@
-package com.fezor.shop.application.port.service.cart;
+package com.fezor.shop.application.service.cart;
 
 import com.fezor.shop.application.port.in.cart.AddToCartUseCase;
 import com.fezor.shop.application.port.in.cart.ProductNotFoundException;
