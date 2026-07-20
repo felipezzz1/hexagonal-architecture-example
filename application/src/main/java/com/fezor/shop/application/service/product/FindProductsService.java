@@ -1,4 +1,4 @@
-package com.fezor.shop.application.port.service.product;
+package com.fezor.shop.application.service.product;
 
 import com.fezor.shop.application.port.in.product.FindProductsUseCase;
 import com.fezor.shop.application.port.out.persistence.ProductRepository;
