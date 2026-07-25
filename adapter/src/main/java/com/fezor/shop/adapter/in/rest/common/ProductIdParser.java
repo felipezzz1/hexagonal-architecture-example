@@ -1,4 +1,4 @@
-package com.fezor.shop.adapter.in.rest.product;
+package com.fezor.shop.adapter.in.rest.common;
 
 import static com.fezor.shop.adapter.in.rest.common.ControllerCommons.clientErrorException;
 

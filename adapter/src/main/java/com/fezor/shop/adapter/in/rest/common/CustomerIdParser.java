@@ -1,13 +1,13 @@
-package com.fezor.shop.adapter.in.rest.cart;
+package com.fezor.shop.adapter.in.rest.common;
 
 import static com.fezor.shop.adapter.in.rest.common.ControllerCommons.clientErrorException;
 
 import com.fezor.shop.model.customer.CustomerId;
 import jakarta.ws.rs.core.Response;
 
-public final class CustomerIdParse {
+public final class CustomerIdParser {
 
-    public CustomerIdParse() {
+    public CustomerIdParser() {
     }
 
     public static CustomerId parseCustomerId(String string) {

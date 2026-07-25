@@ -11,8 +11,8 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 import static com.fezor.shop.adapter.in.rest.common.ControllerCommons.clientErrorException;
-import static com.fezor.shop.adapter.in.rest.cart.CustomerIdParse.parseCustomerId;
-import static com.fezor.shop.adapter.in.rest.product.ProductIdParser.parseProductId;
+import static com.fezor.shop.adapter.in.rest.common.CustomerIdParser.parseCustomerId;
+import static com.fezor.shop.adapter.in.rest.common.ProductIdParser.parseProductId;
 
 @Path("/carts")
 @Produces(MediaType.APPLICATION_JSON)
