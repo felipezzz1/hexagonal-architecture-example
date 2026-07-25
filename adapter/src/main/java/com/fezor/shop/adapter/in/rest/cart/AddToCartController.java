@@ -42,7 +42,7 @@ public class AddToCartController {
         } catch (NotEnoughItemsInStockException e) {
             throw clientErrorException(
                     Response.Status.BAD_REQUEST,
-                    "Only %d items in stock".formatted(e.itemsInStock())
+                    "Onlwy %d items in stock".formatted(e.itemsInStock())
             );
         }
     }
